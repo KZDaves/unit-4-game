@@ -1,0 +1,69 @@
+body {
+	background-image: url("../images/background-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	background-color: orange; 
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	width: 300px;
+	text-align: center;
+	margin: 5px;
+}
+
+#instructions {
+	display: inline-grid;
+	grid-template-columns: minmax(100px, 500px);
+	color: green;
+	background-color: wheat; 
+	margin: 5px;
+	padding: 5px;
+}
+
+#randomNumber {
+	color: purple;
+	background-color: green;
+	font-size: 40px;
+	padding: 10px;
+	margin-right: 5px;
+}
+
+#scoreCounter{
+	background-color: teal;
+	padding: 10px;
+}
+
+#currentCount {
+	display: inline-grid;
+	grid-template-columns: 1fr; 
+	grid-template-columns: minmax(100px, 400px);
+	grid-auto-rows: minmax(50px, auto); 
+}
+
+#currentCount > p{
+	background-color: forestgreen;
+	margin: 5px;
+	padding: 5px;
+	color: white;
+}
+
+#currentCounter {
+	font-size: 40px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr 5fr;
+	margin: 5px;
+}
+
+#crystals {
+	margin: 5px;
+}
+
+button {
+	margin: 5px;
+}
